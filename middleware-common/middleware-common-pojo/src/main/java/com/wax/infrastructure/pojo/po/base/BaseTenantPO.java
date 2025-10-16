@@ -1,0 +1,19 @@
+package com.wax.infrastructure.pojo.po.base;
+
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+
+@Getter
+@Setter
+@NoArgsConstructor
+@EqualsAndHashCode(callSuper = true)
+public class BaseTenantPO extends BasePO {
+
+    /**
+     * 租户编号
+     */
+    private String tenantId;
+}

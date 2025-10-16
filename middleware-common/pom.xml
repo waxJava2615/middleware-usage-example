@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.wax</groupId>
+        <artifactId>middleware-usage-example</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>middleware-common</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>middleware-common-redis</module>
+        <module>middleware-common-pojo</module>
+        <module>middleware-common-druid</module>
+        <module>middleware-common-sharding</module>
+        <module>middleware-common-mybatis</module>
+        <module>middleware-common-core</module>
+        <module>middleware-common-tenant</module>
+        <module>middleware-common-satoken</module>
+    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
+</project>
